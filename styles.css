@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+#thank-you{
+    display:none;
+}
+
+.myrat{
+    border-radius: 50%;
+    border:none;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+    width:125px;
+    height: 30px;
+    font-weight: bold;
+}
+.myrat:hover{
+    background-color: orange;
+}
+.myrat:active{
+    background-color: rgb(187, 170, 170);
+}
+#submit-btn{
+    background-color:orange ;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    display: block;
+    width:100%;
+    padding:5px;
+    font-size: 17px;
+}
+#submit-btn:hover{
+    background-color: white;
+    color:orange;
+}
+body{
+width:100VW;
+height:100vh;
+background-color:black;
+color:white;
+overflow: hidden;
+}
+
+#main, #thank-you{
+    width:300px;
+    height:300px;
+    max-width:1440px;
+    background-color:grey;
+    border-radius: 10px;
+    margin:180px auto;
+    padding:20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#thank-you-img{
+    margin-left: 40px;
+}
+
+#display{
+    text-align: center;
+    margin-top: 10px;
+    color:orange;
+}
+
+#thank-you-para{
+    text-align: justify;
+}
+
+#thank-you-head{
+    text-align: center;
+}
+
+#display-div{
+    background-color: rgb(29, 21, 21);
+    width:160px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
